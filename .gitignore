@@ -1,0 +1,9 @@
+# Tus datos personales — que no acaben en un repositorio público por accidente
+CV_GENERICO.docx
+foto_perfil_circular.png
+CVs_OFERTAS/
+unpack_*/
+
+# Sobras del sistema
+.DS_Store
+Thumbs.db
