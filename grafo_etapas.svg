@@ -1,61 +1,68 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="960" height="600" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" role="img" aria-label="Qué escribe cada etapa">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 560" width="920" height="560" role="img" aria-label="Archivos que escribe cada etapa del flujo.">
 <defs>
-  <marker id="f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
-    <path d="M0,1 L9,5 L0,9 z" fill="#94a3b8"/>
+  <pattern id="rej" width="24" height="24" patternUnits="userSpaceOnUse">
+    <path d="M24,0 L0,0 0,24" fill="none" stroke="#eef2f6" stroke-width="1"/>
+  </pattern>
+  <marker id="p" viewBox="0 0 8 8" refX="7.5" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0.5 L7.5,4 L0,7.5 z" fill="#6b7280"/>
   </marker>
-  <marker id="fa" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
-    <path d="M0,1 L9,5 L0,9 z" fill="#38bdf8"/>
-  </marker>
-  <marker id="fs" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse">
-    <path d="M0,1 L9,5 L0,9 z" fill="#64748b"/>
+  <marker id="pn" viewBox="0 0 8 8" refX="7.5" refY="4" markerWidth="7.5" markerHeight="7.5" orient="auto-start-reverse">
+    <path d="M0,0.5 L7.5,4 L0,7.5 z" fill="#111827"/>
   </marker>
 </defs>
-<rect width="960" height="600" rx="18" fill="#0f172a"/>
-<text x="36" y="46" fill="#e2e8f0" font-size="20" font-weight="700">Qué escribe cada etapa</text>
-<text x="36" y="70" fill="#94a3b8" font-size="13">Las etapas 1 y 2 preparan; de la 3 a la 5 es el ciclo que repites.</text>
-<path d="M176.0,190.0 L259.0,190.0" fill="none" stroke="#94a3b8" stroke-width="2" opacity="0.6" marker-end="url(#f)"/>
-<path d="M362.0,190.0 L445.0,190.0" fill="none" stroke="#94a3b8" stroke-width="2" opacity="0.6" marker-end="url(#f)"/>
-<path d="M548.0,190.0 L631.0,190.0" fill="none" stroke="#94a3b8" stroke-width="2" opacity="0.6" marker-end="url(#f)"/>
-<path d="M734.0,190.0 L817.0,190.0" fill="none" stroke="#94a3b8" stroke-width="2" opacity="0.6" marker-end="url(#f)"/>
-<path d="M146.1,234.4 L210.7,392.8" fill="none" stroke="#94a3b8" stroke-width="2" opacity="0.8" marker-end="url(#f)"/>
-<path d="M298.7,235.5 L246.2,391.7" fill="none" stroke="#94a3b8" stroke-width="2" opacity="0.8" marker-end="url(#f)"/>
-<path d="M490.6,237.1 L460.0,390.0" fill="none" stroke="#94a3b8" stroke-width="2" opacity="0.8" marker-end="url(#f)"/>
-<path d="M464.8,222.6 L267.4,405.4" fill="none" stroke="#94a3b8" stroke-width="1.4" opacity="0.45" marker-end="url(#f)" stroke-dasharray="5 4"/>
-<path d="M665.5,233.4 L641.7,283.9" fill="none" stroke="#94a3b8" stroke-width="2" opacity="0.8" marker-end="url(#f)"/>
-<path d="M653.1,224.9 L485.0,402.9" fill="none" stroke="#94a3b8" stroke-width="1.4" opacity="0.45" marker-end="url(#f)" stroke-dasharray="5 4"/>
-<path d="M849.6,232.4 L763.8,394.9" fill="none" stroke="#94a3b8" stroke-width="2" opacity="0.8" marker-end="url(#f)"/>
-<path d="M494.0,440.0 Q591.5,470.0 689.0,440.0" fill="none" stroke="#38bdf8" stroke-width="2.6" opacity="0.95" marker-end="url(#fa)"/>
-<path d="M879.8,237.4 L886.7,279.7" fill="none" stroke="#94a3b8" stroke-width="1.4" opacity="0.45" marker-end="url(#f)" stroke-dasharray="5 4"/>
-<circle cx="128.0" cy="190.0" r="48" fill="#1d4ed8" stroke="#0b1220" stroke-width="2"/>
-<text x="128.0" y="194.4" fill="#fff" font-size="12.5" font-weight="700" text-anchor="middle">ETAPA 1</text>
-<text x="128" y="128" fill="#94a3b8" font-size="11.5" text-anchor="middle">Elegir dónde buscar</text>
-<circle cx="314.0" cy="190.0" r="48" fill="#1d4ed8" stroke="#0b1220" stroke-width="2"/>
-<text x="314.0" y="194.4" fill="#fff" font-size="12.5" font-weight="700" text-anchor="middle">ETAPA 2</text>
-<text x="314" y="128" fill="#94a3b8" font-size="11.5" text-anchor="middle">Preparar perfiles</text>
-<circle cx="500.0" cy="190.0" r="48" fill="#1d4ed8" stroke="#0b1220" stroke-width="2"/>
-<text x="500.0" y="194.4" fill="#fff" font-size="12.5" font-weight="700" text-anchor="middle">ETAPA 3</text>
-<text x="500" y="128" fill="#94a3b8" font-size="11.5" text-anchor="middle">Buscar ofertas</text>
-<circle cx="686.0" cy="190.0" r="48" fill="#1d4ed8" stroke="#0b1220" stroke-width="2"/>
-<text x="686.0" y="194.4" fill="#fff" font-size="12.5" font-weight="700" text-anchor="middle">ETAPA 4</text>
-<text x="686" y="128" fill="#94a3b8" font-size="11.5" text-anchor="middle">Generar CVs</text>
-<circle cx="872.0" cy="190.0" r="48" fill="#1d4ed8" stroke="#0b1220" stroke-width="2"/>
-<text x="872.0" y="194.4" fill="#fff" font-size="12.5" font-weight="700" text-anchor="middle">ETAPA 5</text>
-<text x="872" y="128" fill="#94a3b8" font-size="11.5" text-anchor="middle">Aplicar</text>
-<circle cx="230.0" cy="440.0" r="44" fill="#15803d" stroke="#0b1220" stroke-width="2"/>
-<text x="230.0" y="443.9" fill="#fff" font-size="11" font-weight="700" text-anchor="middle">PLATAFORMAS</text>
-<circle cx="620.0" cy="330.0" r="44" fill="#15803d" stroke="#0b1220" stroke-width="2"/>
-<text x="620.0" y="327.4" fill="#fff" font-size="11" font-weight="700" text-anchor="middle">CVs_</text>
-<text x="620.0" y="340.4" fill="#fff" font-size="11" font-weight="700" text-anchor="middle">OFERTAS/</text>
-<circle cx="450.0" cy="440.0" r="44" fill="#15803d" stroke="#0b1220" stroke-width="2"/>
-<text x="450.0" y="443.9" fill="#fff" font-size="11" font-weight="700" text-anchor="middle">OFERTAS</text>
-<circle cx="740.0" cy="440.0" r="44" fill="#15803d" stroke="#0b1220" stroke-width="2"/>
-<text x="740.0" y="437.4" fill="#fff" font-size="11" font-weight="700" text-anchor="middle">OFERTAS</text>
-<text x="740.0" y="450.4" fill="#fff" font-size="11" font-weight="700" text-anchor="middle">APLICADAS</text>
-<circle cx="895.0" cy="330.0" r="44" fill="#15803d" stroke="#0b1220" stroke-width="2"/>
-<text x="895.0" y="333.9" fill="#fff" font-size="11" font-weight="700" text-anchor="middle">PROCESOS</text>
-<text x="36" y="528" fill="#94a3b8" font-size="12">Línea continua: lo que crea. Discontinua: un campo que actualiza de paso.</text>
-<circle cx="40" cy="562" r="8" fill="#1d4ed8"/>
-<text x="56" y="566.5" fill="#94a3b8" font-size="12.5">Etapa del flujo</text>
-<circle cx="245" cy="562" r="8" fill="#15803d"/>
-<text x="261" y="566.5" fill="#94a3b8" font-size="12.5">Archivo que se escribe</text>
+<rect width="920" height="560" fill="#ffffff"/>
+<rect width="920" height="560" fill="url(#rej)"/>
+<rect x="0.5" y="0.5" width="919" height="559" fill="none" stroke="#d1d5db" stroke-width="1"/>
+<text x="34" y="46" fill="#111827" font-family="Georgia,'Times New Roman',serif" font-size="15" font-weight="700">Figura 2</text>
+<text x="34" y="68" fill="#111827" font-family="Georgia,'Times New Roman',serif" font-size="14" font-style="italic">Archivos que escribe cada etapa del flujo.</text>
+<line x1="60" y1="175" x2="880" y2="175" stroke="#d1d5db" stroke-width="1"/>
+<line x1="105.1" y1="196.2" x2="232.6" y2="375.6" stroke="#111827" stroke-width="1.8" opacity="1.0" marker-end="url(#pn)"/>
+<line x1="272.1" y1="200.8" x2="253.3" y2="370.2" stroke="#111827" stroke-width="1.8" opacity="1.0" marker-end="url(#pn)"/>
+<line x1="461.2" y1="201.0" x2="468.7" y2="370.0" stroke="#111827" stroke-width="1.8" opacity="1.0" marker-end="url(#pn)"/>
+<line x1="442.3" y1="194.0" x2="270.5" y2="378.1" stroke="#6b7280" stroke-width="1" opacity="1.0" stroke-dasharray="4 4" marker-end="url(#p)"/>
+<line x1="633.7" y1="198.4" x2="598.0" y2="273.0" stroke="#111827" stroke-width="1.8" opacity="1.0" marker-end="url(#pn)"/>
+<line x1="629.0" y1="195.5" x2="488.4" y2="376.3" stroke="#6b7280" stroke-width="1" opacity="1.0" stroke-dasharray="4 4" marker-end="url(#p)"/>
+<line x1="817.0" y1="197.5" x2="715.0" y2="374.0" stroke="#111827" stroke-width="1.8" opacity="1.0" marker-end="url(#pn)"/>
+<line x1="831.7" y1="200.9" x2="836.1" y2="270.1" stroke="#6b7280" stroke-width="1" opacity="1.0" stroke-dasharray="4 4" marker-end="url(#p)"/>
+<line x1="496.0" y1="400.0" x2="670.0" y2="400.0" stroke="#6b7280" stroke-width="1.4" opacity="1.0" marker-end="url(#p)"/>
+<line x1="90.0" y1="169" x2="90.0" y2="181" stroke="#d1d5db" stroke-width="1"/>
+<line x1="116.0" y1="175.0" x2="245.0" y2="175.0" stroke="#9ca3af" stroke-width="1" opacity="1.0" marker-end="url(#p)"/>
+<circle cx="90.0" cy="175.0" r="24" fill="#ffffff" stroke="#111827" stroke-width="2"/>
+<text x="90.0" y="180" fill="#111827" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" text-anchor="middle" font-weight="700">1</text>
+<text x="90.0" y="127" fill="#6b7280" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" text-anchor="middle">Elegir dónde</text>
+<text x="90.0" y="140" fill="#6b7280" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" text-anchor="middle">buscar</text>
+<line x1="275.0" y1="169" x2="275.0" y2="181" stroke="#d1d5db" stroke-width="1"/>
+<line x1="301.0" y1="175.0" x2="430.0" y2="175.0" stroke="#9ca3af" stroke-width="1" opacity="1.0" marker-end="url(#p)"/>
+<circle cx="275.0" cy="175.0" r="24" fill="#ffffff" stroke="#111827" stroke-width="2"/>
+<text x="275.0" y="180" fill="#111827" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" text-anchor="middle" font-weight="700">2</text>
+<text x="275.0" y="127" fill="#6b7280" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" text-anchor="middle">Preparar</text>
+<text x="275.0" y="140" fill="#6b7280" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" text-anchor="middle">perfiles</text>
+<line x1="460.0" y1="169" x2="460.0" y2="181" stroke="#d1d5db" stroke-width="1"/>
+<line x1="486.0" y1="175.0" x2="615.0" y2="175.0" stroke="#9ca3af" stroke-width="1" opacity="1.0" marker-end="url(#p)"/>
+<circle cx="460.0" cy="175.0" r="24" fill="#ffffff" stroke="#111827" stroke-width="2"/>
+<text x="460.0" y="180" fill="#111827" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" text-anchor="middle" font-weight="700">3</text>
+<text x="460.0" y="127" fill="#6b7280" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" text-anchor="middle">Buscar</text>
+<text x="460.0" y="140" fill="#6b7280" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" text-anchor="middle">ofertas</text>
+<line x1="645.0" y1="169" x2="645.0" y2="181" stroke="#d1d5db" stroke-width="1"/>
+<line x1="671.0" y1="175.0" x2="800.0" y2="175.0" stroke="#9ca3af" stroke-width="1" opacity="1.0" marker-end="url(#p)"/>
+<circle cx="645.0" cy="175.0" r="24" fill="#ffffff" stroke="#111827" stroke-width="2"/>
+<text x="645.0" y="180" fill="#111827" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" text-anchor="middle" font-weight="700">4</text>
+<text x="645.0" y="127" fill="#6b7280" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" text-anchor="middle">Generar</text>
+<text x="645.0" y="140" fill="#6b7280" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" text-anchor="middle">CVs</text>
+<line x1="830.0" y1="169" x2="830.0" y2="181" stroke="#d1d5db" stroke-width="1"/>
+<circle cx="830.0" cy="175.0" r="24" fill="#ffffff" stroke="#111827" stroke-width="2"/>
+<text x="830.0" y="180" fill="#111827" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" text-anchor="middle" font-weight="700">5</text>
+<text x="830.0" y="127" fill="#6b7280" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" text-anchor="middle">Aplicar</text>
+<circle cx="250.0" cy="400.0" r="24" fill="#f3f4f6" stroke="#111827" stroke-width="1.6"/>
+<text x="250" y="440" fill="#111827" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" text-anchor="middle">PLATAFORMAS.md</text>
+<circle cx="470.0" cy="400.0" r="24" fill="#f3f4f6" stroke="#111827" stroke-width="1.6"/>
+<text x="470" y="440" fill="#111827" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" text-anchor="middle">OFERTAS.md</text>
+<circle cx="700.0" cy="400.0" r="24" fill="#f3f4f6" stroke="#111827" stroke-width="1.6"/>
+<text x="700" y="440" fill="#111827" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" text-anchor="middle">OFERTAS_APLICADAS.md</text>
+<circle cx="585.0" cy="300.0" r="24" fill="#f3f4f6" stroke="#111827" stroke-width="1.6"/>
+<text x="585" y="340" fill="#111827" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" text-anchor="middle">CVs_OFERTAS/</text>
+<circle cx="838.0" cy="300.0" r="24" fill="#f3f4f6" stroke="#111827" stroke-width="1.6"/>
+<text x="838" y="340" fill="#111827" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" text-anchor="middle">PROCESOS_ACTIVOS.md</text>
+<line x1="34" y1="498" x2="886" y2="498" stroke="#d1d5db" stroke-width="1"/>
+<text x="34" y="520" fill="#6b7280" font-family="Georgia,'Times New Roman',serif" font-size="12.5" font-style="italic">Trazo continuo: lo que la etapa crea. Discontinuo: un campo que actualiza de paso.</text>
 </svg>

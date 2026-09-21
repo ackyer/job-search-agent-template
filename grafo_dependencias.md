@@ -8,14 +8,17 @@
 
 ![Estructura de la plantilla: INSTRUCCIONES_PROYECTO.md en el centro como autoridad, rodeado de AGENTS.md, README.md y los cinco archivos de estado, con CLAUDE.md y GEMINI.md como punteros](grafo_estructura.svg)
 
-En el centro, `INSTRUCCIONES_PROYECTO.md`: es la autoridad y todos los demás apuntan a él en
-vez de repetir su contenido. Alrededor, en verde, los archivos que el agente escribe solo
-mientras trabaja. En ámbar los tuyos: `PERFIL_CANDIDATO.md`, que rellenas al empezar, y el
-`README.md`, que es para ti y no para él. En gris, `CLAUDE.md` y `GEMINI.md`, que son una línea
-cada uno redirigiendo a `AGENTS.md`, para que cada herramienta encuentre su nombre de archivo.
+En el centro, `INSTRUCCIONES_PROYECTO.md`, marcado con doble circunferencia: es la autoridad
+y todos los demás lo referencian en vez de repetir su contenido. El vértice de trazo grueso es
+`AGENTS.md`, lo que el agente lee al empezar. Los de relleno gris son los archivos de estado,
+que escribe él solo mientras trabaja. Los de trazo discontinuo son tuyos: `PERFIL_CANDIDATO.md`,
+que rellenas al empezar, y el `README.md`, que es para ti y no para él. Los dos pequeños
+punteados son `CLAUDE.md` y `GEMINI.md`: una línea cada uno redirigiendo a `AGENTS.md`, para que
+cada herramienta encuentre su nombre de archivo.
 
-La línea azul claro es el recorrido del trabajo: de tus datos salen las plataformas, de las
-plataformas las ofertas, y de las ofertas el archivo histórico y los procesos abiertos.
+Las aristas gruesas son el recorrido del trabajo: de tus datos salen las plataformas, de las
+plataformas las ofertas, y de las ofertas el archivo histórico y los procesos abiertos. Las
+finas son referencias: quién menciona a quién.
 
 **La regla de oro:** `INSTRUCCIONES_PROYECTO.md` manda y `PERFIL_CANDIDATO.md` es la única
 fuente de los datos del candidato. Si añades una regla, ponla en un solo sitio y que el resto
