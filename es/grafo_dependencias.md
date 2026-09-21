@@ -1,3 +1,5 @@
+[English](../en/dependency_graph.md) · [Español](grafo_dependencias.md)
+
 # Grafo de dependencias de los archivos
 
 > Mapa de qué archivo manda sobre qué, quién lee a quién y qué escribe cada etapa del flujo.
@@ -13,8 +15,8 @@ y todos los demás lo referencian en vez de repetir su contenido. El vértice de
 `AGENTS.md`, lo que el agente lee al empezar. Los de relleno gris son los archivos de estado,
 que escribe él solo mientras trabaja. Los de trazo discontinuo son tuyos: `PERFIL_CANDIDATO.md`,
 que rellenas al empezar, y el `README.md`, que es para ti y no para él. Los dos pequeños
-punteados son `CLAUDE.md` y `GEMINI.md`: una línea cada uno redirigiendo a `AGENTS.md`, para que
-cada herramienta encuentre su nombre de archivo.
+punteados son `/CLAUDE.md` y `/GEMINI.md`, que están **en la raíz del repositorio**: una línea
+cada uno que redirige a `AGENTS.md`, para que cada herramienta encuentre su nombre de archivo.
 
 Las aristas gruesas son el recorrido del trabajo: de tus datos salen las plataformas, de las
 plataformas las ofertas, y de las ofertas el archivo histórico y los procesos abiertos. Las
@@ -44,5 +46,5 @@ Los tres están en `.gitignore`: son tuyos y no deben acabar en un repositorio p
 
 ---
 
-<sub>Los diagramas son SVG y se regeneran con el script que los dibuja, no a mano. Si cambias
-la estructura de archivos, actualízalos.</sub>
+<sub>Los diagramas son SVG y se regeneran con `tools/make_figures.py`, no se dibujan a mano.
+Si cambias la estructura de archivos, vuelve a ejecutarlo.</sub>

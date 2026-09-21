@@ -1,3 +1,3 @@
 # GEMINI.md
 
-Las reglas de este proyecto están en @AGENTS.md — léelo antes de hacer nada.
+The rules for this repository are in @AGENTS.md — read it before doing anything.

@@ -116,7 +116,7 @@ aplicaciones realizadas) y de los siguientes pasos que requieran acción suya.
 ## 1. PERFIL DEL CANDIDATO
 
 > ⚠️ **La información del candidato se encuentra en `PERFIL_CANDIDATO.md`.**
-> el agente debe leer ese archivo antes de generar cualquier CV o cubrir cualquier
+> El agente debe leer ese archivo antes de generar cualquier CV o cubrir cualquier
 > formulario. No usar datos hardcodeados; `PERFIL_CANDIDATO.md` es la fuente de verdad.
 
 ---
@@ -546,7 +546,7 @@ archivos que ya no sean útiles:
 | Resúmenes o métricas de búsquedas antiguas | Si la info ya está en `OFERTAS.md` o `PERFIL_CANDIDATO.md` |
 | Carpetas de trabajo `unpack_<tag>/` | Una vez generado el PDF |
 | CVs en `CVs_OFERTAS/` | **Conservar siempre** |
-| `PERFIL_CANDIDATO.md`, `INSTRUCCIONES_PROYECTO.md`, `PLATAFORMAS.md`, `OFERTAS.md`, `OFERTAS_APLICADAS.md`, `PROCESOS_ACTIVOS.md`, `README.md`, `AGENTS.md`, `CLAUDE.md` | **Conservar siempre** |
+| `PERFIL_CANDIDATO.md`, `INSTRUCCIONES_PROYECTO.md`, `PLATAFORMAS.md`, `OFERTAS.md`, `OFERTAS_APLICADAS.md`, `PROCESOS_ACTIVOS.md`, `README.md`, `AGENTS.md`, `grafo_dependencias.md` | **Conservar siempre** |
 | Foto e imágenes de CV | **Conservar siempre** |
 | `CV_GENERICO.docx` base | **Conservar siempre** |
 

@@ -1,9 +1,13 @@
 # Tus datos personales — que no acaben en un repositorio público por accidente
+# Your personal data — so it never lands in a public repository by accident
 CV_GENERICO.docx
+GENERIC_CV.docx
 foto_perfil_circular.png
+profile_photo_circular.png
 CVs_OFERTAS/
+CVs_JOBS/
 unpack_*/
 
-# Sobras del sistema
+# Sobras del sistema · OS leftovers
 .DS_Store
 Thumbs.db
