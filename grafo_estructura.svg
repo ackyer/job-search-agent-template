@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 772" width="960" height="772" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" role="img" aria-label="Estructura de la plantilla">
+<defs>
+  <marker id="f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+    <path d="M0,1 L9,5 L0,9 z" fill="#94a3b8"/>
+  </marker>
+  <marker id="fa" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+    <path d="M0,1 L9,5 L0,9 z" fill="#38bdf8"/>
+  </marker>
+  <marker id="fs" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse">
+    <path d="M0,1 L9,5 L0,9 z" fill="#64748b"/>
+  </marker>
+</defs>
+<rect width="960" height="772" rx="18" fill="#0f172a"/>
+<text x="36" y="46" fill="#e2e8f0" font-size="20" font-weight="700">Estructura de la plantilla</text>
+<text x="36" y="70" fill="#94a3b8" font-size="13">Quién lee a quién. Todos son archivos .md en la raíz del proyecto.</text>
+<circle cx="480" cy="372" r="228" fill="none" stroke="#1e293b" stroke-width="1.5"/>
+<path d="M480.0,298.0 L480.0,204.0" fill="none" stroke="#94a3b8" stroke-width="1.6" opacity="0.5" marker-end="url(#f)"/>
+<path d="M537.9,325.9 L611.4,267.3" fill="none" stroke="#94a3b8" stroke-width="1.6" opacity="0.5" marker-end="url(#f)"/>
+<path d="M552.1,388.5 L643.8,409.4" fill="none" stroke="#94a3b8" stroke-width="1.6" opacity="0.5" marker-end="url(#f)"/>
+<path d="M512.1,438.7 L552.9,523.4" fill="none" stroke="#94a3b8" stroke-width="1.6" opacity="0.5" marker-end="url(#f)"/>
+<path d="M447.9,438.7 L407.1,523.4" fill="none" stroke="#94a3b8" stroke-width="1.6" opacity="0.5" marker-end="url(#f)"/>
+<path d="M407.9,388.5 L316.2,409.4" fill="none" stroke="#94a3b8" stroke-width="1.6" opacity="0.5" marker-end="url(#f)"/>
+<path d="M422.1,325.9 L348.7,267.3" fill="none" stroke="#94a3b8" stroke-width="1.6" opacity="0.5" marker-end="url(#f)"/>
+<path d="M333.7,122.9 L420.6,135.4" fill="none" stroke="#64748b" stroke-width="1.6" opacity="0.75" marker-end="url(#fs)"/>
+<path d="M626.3,122.9 L539.4,135.4" fill="none" stroke="#64748b" stroke-width="1.6" opacity="0.75" marker-end="url(#fs)"/>
+<path d="M289.9,281.5 Q251.3,316.2 271.1,364.2" fill="none" stroke="#38bdf8" stroke-width="2.6" opacity="0.95" marker-end="url(#fa)"/>
+<path d="M290.8,464.2 Q293.8,516.0 343.7,530.5" fill="none" stroke="#38bdf8" stroke-width="2.6" opacity="0.95" marker-end="url(#fa)"/>
+<path d="M434.1,577.4 Q476.5,607.4 518.9,577.4" fill="none" stroke="#38bdf8" stroke-width="2.6" opacity="0.95" marker-end="url(#fa)"/>
+<path d="M612.0,536.0 Q661.9,521.5 664.9,469.6" fill="none" stroke="#38bdf8" stroke-width="2.6" opacity="0.95" marker-end="url(#fa)"/>
+<circle cx="480.0" cy="372.0" r="74" fill="#1d4ed8" stroke="#0b1220" stroke-width="2"/>
+<text x="480.0" y="369.1" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">INSTRUCCIONES</text>
+<text x="480.0" y="384.1" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">PROYECTO</text>
+<text x="480" y="402" fill="#bfdbfe" font-size="11" text-anchor="middle">la autoridad</text>
+<circle cx="480.0" cy="144.0" r="53" fill="#1d4ed8" stroke="#0b1220" stroke-width="2"/>
+<text x="480.0" y="148.2" fill="#fff" font-size="12" font-weight="700" text-anchor="middle">AGENTS</text>
+<circle cx="658.3" cy="229.8" r="53" fill="#b45309" stroke="#0b1220" stroke-width="2"/>
+<text x="658.3" y="234.0" fill="#fff" font-size="12" font-weight="700" text-anchor="middle">README</text>
+<circle cx="702.3" cy="422.7" r="53" fill="#15803d" stroke="#0b1220" stroke-width="2"/>
+<text x="702.3" y="419.9" fill="#fff" font-size="12" font-weight="700" text-anchor="middle">PROCESOS</text>
+<text x="702.3" y="433.9" fill="#fff" font-size="12" font-weight="700" text-anchor="middle">ACTIVOS</text>
+<circle cx="578.9" cy="577.4" r="53" fill="#15803d" stroke="#0b1220" stroke-width="2"/>
+<text x="578.9" y="574.6" fill="#fff" font-size="12" font-weight="700" text-anchor="middle">OFERTAS</text>
+<text x="578.9" y="588.6" fill="#fff" font-size="12" font-weight="700" text-anchor="middle">APLICADAS</text>
+<circle cx="381.1" cy="577.4" r="53" fill="#15803d" stroke="#0b1220" stroke-width="2"/>
+<text x="381.1" y="581.6" fill="#fff" font-size="12" font-weight="700" text-anchor="middle">OFERTAS</text>
+<circle cx="257.7" cy="422.7" r="53" fill="#15803d" stroke="#0b1220" stroke-width="2"/>
+<text x="257.7" y="426.9" fill="#fff" font-size="12" font-weight="700" text-anchor="middle">PLATAFORMAS</text>
+<circle cx="301.7" cy="229.8" r="53" fill="#b45309" stroke="#0b1220" stroke-width="2"/>
+<text x="301.7" y="227.0" fill="#fff" font-size="12" font-weight="700" text-anchor="middle">PERFIL</text>
+<text x="301.7" y="241.0" fill="#fff" font-size="12" font-weight="700" text-anchor="middle">CANDIDATO</text>
+<circle cx="300.0" cy="118.0" r="34" fill="#475569" stroke="#0b1220" stroke-width="2"/>
+<text x="300.0" y="121.8" fill="#fff" font-size="11" font-weight="700" text-anchor="middle">CLAUDE</text>
+<text x="300" y="166" fill="#94a3b8" font-size="10.5" text-anchor="middle">puntero</text>
+<circle cx="660.0" cy="118.0" r="34" fill="#475569" stroke="#0b1220" stroke-width="2"/>
+<text x="660.0" y="121.8" fill="#fff" font-size="11" font-weight="700" text-anchor="middle">GEMINI</text>
+<text x="660" y="166" fill="#94a3b8" font-size="10.5" text-anchor="middle">puntero</text>
+<text x="36" y="700" fill="#94a3b8" font-size="12">La línea azul claro es el recorrido del trabajo: de tus datos a las plataformas, de ahí a las ofertas, y de las ofertas al archivo y a los procesos abiertos.</text>
+<circle cx="40" cy="734" r="8" fill="#1d4ed8"/>
+<text x="56" y="738.5" fill="#94a3b8" font-size="12.5">Reglas que lee el agente</text>
+<circle cx="245" cy="734" r="8" fill="#15803d"/>
+<text x="261" y="738.5" fill="#94a3b8" font-size="12.5">Estado: lo escribe él</text>
+<circle cx="450" cy="734" r="8" fill="#b45309"/>
+<text x="466" y="738.5" fill="#94a3b8" font-size="12.5">Tuyo</text>
+<circle cx="655" cy="734" r="8" fill="#475569"/>
+<text x="671" y="738.5" fill="#94a3b8" font-size="12.5">Puntero a AGENTS</text>
+</svg>

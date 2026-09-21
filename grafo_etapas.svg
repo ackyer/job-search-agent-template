@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="960" height="600" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" role="img" aria-label="Qué escribe cada etapa">
+<defs>
+  <marker id="f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+    <path d="M0,1 L9,5 L0,9 z" fill="#94a3b8"/>
+  </marker>
+  <marker id="fa" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+    <path d="M0,1 L9,5 L0,9 z" fill="#38bdf8"/>
+  </marker>
+  <marker id="fs" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse">
+    <path d="M0,1 L9,5 L0,9 z" fill="#64748b"/>
+  </marker>
+</defs>
+<rect width="960" height="600" rx="18" fill="#0f172a"/>
+<text x="36" y="46" fill="#e2e8f0" font-size="20" font-weight="700">Qué escribe cada etapa</text>
+<text x="36" y="70" fill="#94a3b8" font-size="13">Las etapas 1 y 2 preparan; de la 3 a la 5 es el ciclo que repites.</text>
+<path d="M176.0,190.0 L259.0,190.0" fill="none" stroke="#94a3b8" stroke-width="2" opacity="0.6" marker-end="url(#f)"/>
+<path d="M362.0,190.0 L445.0,190.0" fill="none" stroke="#94a3b8" stroke-width="2" opacity="0.6" marker-end="url(#f)"/>
+<path d="M548.0,190.0 L631.0,190.0" fill="none" stroke="#94a3b8" stroke-width="2" opacity="0.6" marker-end="url(#f)"/>
+<path d="M734.0,190.0 L817.0,190.0" fill="none" stroke="#94a3b8" stroke-width="2" opacity="0.6" marker-end="url(#f)"/>
+<path d="M146.1,234.4 L210.7,392.8" fill="none" stroke="#94a3b8" stroke-width="2" opacity="0.8" marker-end="url(#f)"/>
+<path d="M298.7,235.5 L246.2,391.7" fill="none" stroke="#94a3b8" stroke-width="2" opacity="0.8" marker-end="url(#f)"/>
+<path d="M490.6,237.1 L460.0,390.0" fill="none" stroke="#94a3b8" stroke-width="2" opacity="0.8" marker-end="url(#f)"/>
+<path d="M464.8,222.6 L267.4,405.4" fill="none" stroke="#94a3b8" stroke-width="1.4" opacity="0.45" marker-end="url(#f)" stroke-dasharray="5 4"/>
+<path d="M665.5,233.4 L641.7,283.9" fill="none" stroke="#94a3b8" stroke-width="2" opacity="0.8" marker-end="url(#f)"/>
+<path d="M653.1,224.9 L485.0,402.9" fill="none" stroke="#94a3b8" stroke-width="1.4" opacity="0.45" marker-end="url(#f)" stroke-dasharray="5 4"/>
+<path d="M849.6,232.4 L763.8,394.9" fill="none" stroke="#94a3b8" stroke-width="2" opacity="0.8" marker-end="url(#f)"/>
+<path d="M494.0,440.0 Q591.5,470.0 689.0,440.0" fill="none" stroke="#38bdf8" stroke-width="2.6" opacity="0.95" marker-end="url(#fa)"/>
+<path d="M879.8,237.4 L886.7,279.7" fill="none" stroke="#94a3b8" stroke-width="1.4" opacity="0.45" marker-end="url(#f)" stroke-dasharray="5 4"/>
+<circle cx="128.0" cy="190.0" r="48" fill="#1d4ed8" stroke="#0b1220" stroke-width="2"/>
+<text x="128.0" y="194.4" fill="#fff" font-size="12.5" font-weight="700" text-anchor="middle">ETAPA 1</text>
+<text x="128" y="128" fill="#94a3b8" font-size="11.5" text-anchor="middle">Elegir dónde buscar</text>
+<circle cx="314.0" cy="190.0" r="48" fill="#1d4ed8" stroke="#0b1220" stroke-width="2"/>
+<text x="314.0" y="194.4" fill="#fff" font-size="12.5" font-weight="700" text-anchor="middle">ETAPA 2</text>
+<text x="314" y="128" fill="#94a3b8" font-size="11.5" text-anchor="middle">Preparar perfiles</text>
+<circle cx="500.0" cy="190.0" r="48" fill="#1d4ed8" stroke="#0b1220" stroke-width="2"/>
+<text x="500.0" y="194.4" fill="#fff" font-size="12.5" font-weight="700" text-anchor="middle">ETAPA 3</text>
+<text x="500" y="128" fill="#94a3b8" font-size="11.5" text-anchor="middle">Buscar ofertas</text>
+<circle cx="686.0" cy="190.0" r="48" fill="#1d4ed8" stroke="#0b1220" stroke-width="2"/>
+<text x="686.0" y="194.4" fill="#fff" font-size="12.5" font-weight="700" text-anchor="middle">ETAPA 4</text>
+<text x="686" y="128" fill="#94a3b8" font-size="11.5" text-anchor="middle">Generar CVs</text>
+<circle cx="872.0" cy="190.0" r="48" fill="#1d4ed8" stroke="#0b1220" stroke-width="2"/>
+<text x="872.0" y="194.4" fill="#fff" font-size="12.5" font-weight="700" text-anchor="middle">ETAPA 5</text>
+<text x="872" y="128" fill="#94a3b8" font-size="11.5" text-anchor="middle">Aplicar</text>
+<circle cx="230.0" cy="440.0" r="44" fill="#15803d" stroke="#0b1220" stroke-width="2"/>
+<text x="230.0" y="443.9" fill="#fff" font-size="11" font-weight="700" text-anchor="middle">PLATAFORMAS</text>
+<circle cx="620.0" cy="330.0" r="44" fill="#15803d" stroke="#0b1220" stroke-width="2"/>
+<text x="620.0" y="327.4" fill="#fff" font-size="11" font-weight="700" text-anchor="middle">CVs_</text>
+<text x="620.0" y="340.4" fill="#fff" font-size="11" font-weight="700" text-anchor="middle">OFERTAS/</text>
+<circle cx="450.0" cy="440.0" r="44" fill="#15803d" stroke="#0b1220" stroke-width="2"/>
+<text x="450.0" y="443.9" fill="#fff" font-size="11" font-weight="700" text-anchor="middle">OFERTAS</text>
+<circle cx="740.0" cy="440.0" r="44" fill="#15803d" stroke="#0b1220" stroke-width="2"/>
+<text x="740.0" y="437.4" fill="#fff" font-size="11" font-weight="700" text-anchor="middle">OFERTAS</text>
+<text x="740.0" y="450.4" fill="#fff" font-size="11" font-weight="700" text-anchor="middle">APLICADAS</text>
+<circle cx="895.0" cy="330.0" r="44" fill="#15803d" stroke="#0b1220" stroke-width="2"/>
+<text x="895.0" y="333.9" fill="#fff" font-size="11" font-weight="700" text-anchor="middle">PROCESOS</text>
+<text x="36" y="528" fill="#94a3b8" font-size="12">Línea continua: lo que crea. Discontinua: un campo que actualiza de paso.</text>
+<circle cx="40" cy="562" r="8" fill="#1d4ed8"/>
+<text x="56" y="566.5" fill="#94a3b8" font-size="12.5">Etapa del flujo</text>
+<circle cx="245" cy="562" r="8" fill="#15803d"/>
+<text x="261" y="566.5" fill="#94a3b8" font-size="12.5">Archivo que se escribe</text>
+</svg>
