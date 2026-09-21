@@ -86,6 +86,7 @@ Cuando el agente te pregunte el modo de ejecución:
 | `OFERTAS.md` | Lista **viva** de ofertas encontradas y su estado. La rellena el agente. | Lo gestiona el agente |
 | `OFERTAS_APLICADAS.md` | Archivo histórico de ofertas ya aplicadas. El agente mueve aquí las terminadas. | Lo gestiona el agente |
 | `PROCESOS_ACTIVOS.md` | Seguimiento de entrevistas y procesos de selección en curso. | Lo gestiona el agente / tú |
+| `grafo_dependencias.md` | Mapa de qué archivo manda sobre qué y qué escribe cada etapa, con diagramas. Para cuando quieras adaptar la plantilla. | No |
 
 ---
 
