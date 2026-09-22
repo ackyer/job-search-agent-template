@@ -47,13 +47,23 @@ pero si dejas las dos el agente tiene que preguntarte cada vez cuál usar.
 
 La carpeta que te quedes **es tu proyecto**: ahí dentro trabajarás.
 
-## Paso 3 — Instalar Claude
+## Paso 3 — Instalar Claude y abrir la carpeta
 
 La forma más sencilla, sin tocar ninguna terminal:
 
 1. Entra en **claude.ai/download** e instala la aplicación de escritorio.
 2. Ábrela e inicia sesión con tu cuenta de Claude.
-3. Dile que abra la carpeta de tu proyecto (la del paso 2).
+3. Dentro de la aplicación, ve a la sección **Claude Code**.
+4. Elige trabajar **en local**, es decir, en tu propio ordenador, y no en la nube.
+5. Cuando te pida qué carpeta abrir, selecciona **la carpeta que descomprimiste** en el
+   paso 1 — concretamente la del idioma que conservaste en el paso 2.
+
+A partir de ahí, el chat que se abre está «dentro» de esa carpeta: todo lo que le pidas lo
+hará ahí. Si te pregunta si le das permiso para leer y escribir archivos, dile que sí; es
+justo lo que tiene que hacer.
+
+> Si en el paso 4 eligieras la nube en vez de local, estarías haciendo la vía B de esta
+> misma guía. Para trabajar con la carpeta de tu ordenador tiene que ser **local**.
 
 > Necesitas un plan de pago de Claude. El proyecto es gratis, pero el agente que lo mueve no.
 

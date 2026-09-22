@@ -49,13 +49,23 @@ mandatory, but if you keep both the agent has to ask you which one every time.
 
 The folder you keep **is your project**: that's where you'll work.
 
-## Step 3 — Install Claude
+## Step 3 — Install Claude and open the folder
 
 The simplest way, with no terminal involved:
 
 1. Go to **claude.ai/download** and install the desktop app.
 2. Open it and sign in with your Claude account.
-3. Point it at your project folder (the one from step 2).
+3. Inside the app, go to the **Claude Code** section.
+4. Choose to work **locally** — on your own computer, not in the cloud.
+5. When it asks which folder to open, pick **the folder you unzipped** in step 1 —
+   specifically the language folder you kept in step 2.
+
+From then on, the chat that opens is "inside" that folder: everything you ask for happens
+there. If it asks for permission to read and write files, say yes; that's exactly what it
+needs to do.
+
+> If you picked the cloud instead of local in step 4, you'd be doing route B of this same
+> guide. To work with the folder on your computer it has to be **local**.
 
 > You need a paid Claude plan. The project is free, but the agent running it isn't.
 
