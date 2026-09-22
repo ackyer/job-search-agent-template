@@ -111,8 +111,4 @@ El agente te entrevista, lo rellena todo y se pone a trabajar.
 
 ## License · Licencia
 
-[MIT](LICENSE). Use it, change it, share it, make it yours. A mention is welcome but not
-required.
-
-[MIT](LICENSE). Úsalo, cámbialo, compártelo, hazlo tuyo. Mencionarlo se agradece, pero no
-hace falta.
+[MIT](LICENSE)
