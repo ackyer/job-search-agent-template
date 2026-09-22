@@ -31,6 +31,9 @@ What your agent needs for each part:
 
 ## 🚀 Getting started (just say «Start the project»)
 
+> 📘 **First time and not sure where to begin?** The **[installation guide](INSTALL.md)** walks
+> you through it step by step, assuming nothing. What you need to have: [requirements](REQUIREMENTS.md).
+
 You don't have to fill the files in by hand. Setup is automatic:
 
 1. **Copy this folder** wherever you want your project and open it with your agent (Claude
@@ -87,6 +90,8 @@ When the agent asks about the execution mode:
 | `JOBS.md` | The **living** list of jobs found and their state. The agent fills it in. | The agent manages it |
 | `JOBS_APPLIED.md` | Archive of jobs already applied to. The agent moves the finished ones here. | The agent manages it |
 | `ACTIVE_PROCESSES.md` | Tracking of interviews and selection processes under way. | The agent manages it / you |
+| `INSTALL.md` | How to get the project running, step by step. | No |
+| `REQUIREMENTS.md` | What you need to have before starting. | No |
 | `dependency_graph.md` | A map of which file rules what and what each stage writes, with diagrams. For when you want to adapt the template. | No |
 
 ---

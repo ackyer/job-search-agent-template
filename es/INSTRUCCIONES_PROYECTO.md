@@ -546,7 +546,7 @@ archivos que ya no sean útiles:
 | Resúmenes o métricas de búsquedas antiguas | Si la info ya está en `OFERTAS.md` o `PERFIL_CANDIDATO.md` |
 | Carpetas de trabajo `unpack_<tag>/` | Una vez generado el PDF |
 | CVs en `CVs_OFERTAS/` | **Conservar siempre** |
-| `PERFIL_CANDIDATO.md`, `INSTRUCCIONES_PROYECTO.md`, `PLATAFORMAS.md`, `OFERTAS.md`, `OFERTAS_APLICADAS.md`, `PROCESOS_ACTIVOS.md`, `README.md`, `AGENTS.md`, `grafo_dependencias.md` | **Conservar siempre** |
+| `PERFIL_CANDIDATO.md`, `INSTRUCCIONES_PROYECTO.md`, `PLATAFORMAS.md`, `OFERTAS.md`, `OFERTAS_APLICADAS.md`, `PROCESOS_ACTIVOS.md`, `README.md`, `AGENTS.md`, `INSTALACION.md`, `REQUISITOS.md`, `grafo_dependencias.md` | **Conservar siempre** |
 | Foto e imágenes de CV | **Conservar siempre** |
 | `CV_GENERICO.docx` base | **Conservar siempre** |
 

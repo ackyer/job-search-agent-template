@@ -15,6 +15,21 @@ texto que le dicen al agente cómo comportarse.
 
 ---
 
+## Start here · Empieza por aquí
+
+Step by step, assuming you have never used GitHub. It takes about 15 minutes.
+Paso a paso, sin dar por sabido nada de GitHub. Son unos 15 minutos.
+
+| | Install · Instalar | What you need · Qué necesitas |
+|---|---|---|
+| 🇬🇧 | **[Installation guide →](en/INSTALL.md)** | [Requirements](en/REQUIREMENTS.md) |
+| 🇪🇸 | **[Guía de instalación →](es/INSTALACION.md)** | [Requisitos](es/REQUISITOS.md) |
+
+No CV yet? The project writes one with you — no need to bring one.
+¿No tienes CV? El proyecto te lo hace: no hace falta que traigas nada.
+
+---
+
 ## How it works · Cómo funciona
 
 ![The five stages in a row, with arrows to the files each one writes](en/stages_graph.svg)

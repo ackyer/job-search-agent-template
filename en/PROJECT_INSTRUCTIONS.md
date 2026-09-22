@@ -536,7 +536,7 @@ deletes files that are no longer useful:
 | Summaries or metrics from old searches | The information is already in `JOBS.md` or `CANDIDATE_PROFILE.md` |
 | `unpack_<tag>/` working folders | Once the PDF has been generated |
 | CVs in `CVs_JOBS/` | **Always keep** |
-| `CANDIDATE_PROFILE.md`, `PROJECT_INSTRUCTIONS.md`, `PLATFORMS.md`, `JOBS.md`, `JOBS_APPLIED.md`, `ACTIVE_PROCESSES.md`, `README.md`, `AGENTS.md`, `dependency_graph.md` | **Always keep** |
+| `CANDIDATE_PROFILE.md`, `PROJECT_INSTRUCTIONS.md`, `PLATFORMS.md`, `JOBS.md`, `JOBS_APPLIED.md`, `ACTIVE_PROCESSES.md`, `README.md`, `AGENTS.md`, `INSTALL.md`, `REQUIREMENTS.md`, `dependency_graph.md` | **Always keep** |
 | The photo and CV images | **Always keep** |
 | The base `GENERIC_CV.docx` | **Always keep** |
 
