@@ -43,8 +43,3 @@ discontinuas son campos que una etapa actualiza de paso, como la fecha de últim
 | `CVs_OFERTAS/` | Lo crea el agente | Donde acaban el `.docx` y el `.pdf` de cada oferta |
 
 Los tres están en `.gitignore`: son tuyos y no deben acabar en un repositorio público.
-
----
-
-<sub>Los diagramas son SVG y se regeneran con `tools/make_figures.py`, no se dibujan a mano.
-Si cambias la estructura de archivos, vuelve a ejecutarlo.</sub>
