@@ -191,13 +191,18 @@ generic CV must be preserved exactly. The correct flow is:
      $docx = (Resolve-Path "CVs_JOBS\CV_[...].docx").Path
      $w = New-Object -ComObject Word.Application
      $w.Visible = $false
-     $d = $w.Documents.Open($docx)
-     $d.SaveAs2([IO.Path]::ChangeExtension($docx, ".pdf"), 17)  # wdFormatPDF = 17
-     $d.Close()
-     $w.Quit()
+     $d = $null
+     try {
+         $d = $w.Documents.Open($docx)
+         $d.SaveAs2([IO.Path]::ChangeExtension($docx, ".pdf"), 17)  # wdFormatPDF = 17
+     } finally {
+         if ($d) { $d.Close($false) }
+         $w.Quit()
+     }
      ```
-     Retry up to 3 times with a 5s wait if Word is busy (e.g. helpers running in parallel).
-     `Stop-Process` at the start clears zombie instances.
+     The `finally` closes Word even if the conversion fails, so no instances are left
+     hanging. `Stop-Process` at the start clears any left over from earlier runs. Retry up
+     to 3 times with a 5s wait if Word is busy (e.g. helpers running in parallel).
 5. Check that the PDF is **exactly one page** (if not, cut content and repeat).
 6. Leave **both the `.docx` and the PDF** in `CVs_JOBS/` (create the folder if it doesn't
    exist). Nothing intermediate should be left in the project root.

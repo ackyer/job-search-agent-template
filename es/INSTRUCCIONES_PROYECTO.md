@@ -199,13 +199,19 @@ genérico debe preservarse exactamente. El flujo correcto es:
      $docx = (Resolve-Path "CVs_OFERTAS\CV_[...].docx").Path
      $w = New-Object -ComObject Word.Application
      $w.Visible = $false
-     $d = $w.Documents.Open($docx)
-     $d.SaveAs2([IO.Path]::ChangeExtension($docx, ".pdf"), 17)  # wdFormatPDF = 17
-     $d.Close()
-     $w.Quit()
+     $d = $null
+     try {
+         $d = $w.Documents.Open($docx)
+         $d.SaveAs2([IO.Path]::ChangeExtension($docx, ".pdf"), 17)  # wdFormatPDF = 17
+     } finally {
+         if ($d) { $d.Close($false) }
+         $w.Quit()
+     }
      ```
+     El `finally` cierra Word aunque la conversión falle, así que no quedan instancias
+     colgadas. El `Stop-Process` del inicio limpia las que hubieran quedado de antes.
      Reintentar hasta 3 veces con 5s de espera si Word está ocupado (p. ej. subagentes en
-     paralelo). `Stop-Process` al inicio elimina instancias zombie.
+     paralelo).
 5. Comprobar que el PDF tiene **1 sola página** (si no, recortar contenido y repetir).
 6. Dejar **tanto el `.docx` como el PDF** en `CVs_OFERTAS/` (crear la carpeta si no existe).
    Nada intermedio debe quedar en la raíz del proyecto.
