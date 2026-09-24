@@ -1,4 +1,4 @@
-# 🤖 Automated Job Search with an AI Agent
+# Automated Job Search with an AI Agent
 # Búsqueda de Empleo Automática con un Agente de IA
 
 **A project template that lets any AI agent run your whole job search.** You drop in your CV
